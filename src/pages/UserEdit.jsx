@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { editUser, fetchUser, createUser} from "../actions/userActions";
+import { editUser, fetchUser, createUser} from "../reducers/userSlice";
 import { useDispatch, useSelector } from "react-redux";
 
 const UserEdit = () => {
